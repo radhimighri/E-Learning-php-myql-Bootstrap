@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		
+		<?php
+	include ("incssjsmore.php");
+		?>
+
+		<title>Theme Template for Bootstrap</title>
+
+		<!-- Bootstrap core CSS -->
+		<?php
+	include ("incssjs.php");
+		?>
+	</head>
+
+	<body role="document" style="margin-bottom: 90px;">
+
+		<!-- Fixed navbar -->
+		<?php
+	include ("menu.php");
+		?>
+
+		<div class="container theme-showcase" role="main">
+
+			<!-- Main jumbotron for a primary marketing message or call to action -->
+			<div class="jumbotron">
+				<h1>Hello, world!</h1>
+				<p>
+					This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+				</p>
+				<p>
+					<a href="http://getbootstrap.com/examples/theme/#" class="btn btn-primary btn-lg" role="button">Learn more »</a>
+				</p>
+			</div>
+			<?php
+	include ("left.php");
+		?>
+
+			<div class="jumbotron" style="width: 73%; float: right;">
+				<div class="row">
+					<div style="float: left; margin-left: 4%" >
+						<center>
+							<h4 class="list-group-item-heading">Nom</h4>
+						</center>
+						<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjEwMCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 200px; height: 200px;">
+						<p>
+							<a href="" class="btn btn-lg btn-info" role="button">Info »</a>
+
+							<button type="button" class="btn btn-lg btn-success" style="float: right;">
+								<span class="glyphicon glyphicon-shopping-cart"></span> Add
+							</button>
+						</p>
+					</div>
+					<div style="float: left; margin-left: 4%" >
+						<center>
+							<h4 class="list-group-item-heading">Nom</h4>
+						</center>
+						<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjEwMCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 200px; height: 200px;">
+						<p>
+							<a href="" class="btn btn-lg btn-info" role="button">Info »</a>
+
+							<button type="button" class="btn btn-lg btn-success" style="float: right;">
+								<span class="glyphicon glyphicon-shopping-cart"></span> Add
+							</button>
+						</p>
+					</div>
+					<div style="float: left; margin-left: 4%" >
+						<center>
+							<h4 class="list-group-item-heading">Nom</h4>
+						</center>
+						<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjEwMCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 200px; height: 200px;">
+						<p>
+							<a href="" class="btn btn-lg btn-info" role="button">Info »</a>
+
+							<button type="button" class="btn btn-lg btn-success" style="float: right;">
+								<span class="glyphicon glyphicon-shopping-cart"></span> Add
+							</button>
+						</p>
+					</div>
+					<div style="float: left; margin-left: 4%" >
+						<center>
+							<h4 class="list-group-item-heading">Nom</h4>
+						</center>
+						<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjEwMCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 200px; height: 200px;">
+						<p>
+							<a href="" class="btn btn-lg btn-info" role="button">Info »</a>
+
+							<button type="button" class="btn btn-lg btn-success" style="float: right;">
+								<span class="glyphicon glyphicon-shopping-cart"></span> Add
+							</button>
+						</p>
+					</div>
+					<div style="float: left; margin-left: 4%" >
+						<center>
+							<h4 class="list-group-item-heading">Nom</h4>
+						</center>
+						<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjEwMCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 200px; height: 200px;">
+						<p>
+							<a href="" class="btn btn-lg btn-info" role="button">Info »</a>
+
+							<button type="button" class="btn btn-lg btn-success" style="float: right;">
+								<span class="glyphicon glyphicon-shopping-cart"></span> Add
+							</button>
+						</p>
+					</div>
+					<div style="float: left; margin-left: 4%" >
+						<center>
+							<h4 class="list-group-item-heading">Nom</h4>
+						</center>
+						<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjEwMCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 200px; height: 200px;">
+						<p>
+							<a href="" class="btn btn-lg btn-info" role="button">Info »</a>
+
+							<button type="button" class="btn btn-lg btn-success" style="float: right;">
+								<span class="glyphicon glyphicon-shopping-cart"></span> Add
+							</button>
+						</p>
+					</div>
+
+				</div>
+			</div>
+			</div>
+			<?php
+	include ("foot.php");
+		?>
+			
+
+		
+		<!-- /container -->
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<?php
+	include ("fast.php");
+		?>
+
+	</body>
+</html>
